@@ -267,6 +267,8 @@
     if ([platform isEqualToString:@"iPad6,4"])      return @"iPad Pro";
     if ([platform isEqualToString:@"iPad6,7"])      return @"iPad Pro";
     if ([platform isEqualToString:@"iPad6,8"])      return @"iPad Pro";
+    if ([platform isEqualToString:@"AppleTV5,3"])   return @"AppleTV 4th Gen";
+    if ([platform isEqualToString:@"AppleTV6,2"])   return @"AppleTV 4K";
     if ([platform isEqualToString:@"i386"])         return @"Simulator";
     if ([platform isEqualToString:@"x86_64"])       return @"Simulator";
     return platform;
